@@ -1,4 +1,3 @@
-setwd("/Users/balaena/Downloads/postdoc/GalliformesFS/resubmission/rerun/")
 library(ape)
 library(phytools)
 library(nlme)
