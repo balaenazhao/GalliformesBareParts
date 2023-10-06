@@ -1,6 +1,4 @@
 library(corrplot)
-setwd("/Users/balaena/Downloads/postdoc/GalliformesFS/resubmission/rerun/correlation_variables/")
-
 
 ############### pairwise correlation test ###########
 data<- read.csv("sexually_selected_traits.csv",header=T,row.names = 1)
