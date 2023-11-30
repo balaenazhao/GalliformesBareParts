@@ -18,14 +18,6 @@ round(test, 3)
 corrplot(test, type = "upper", order = "hclust", 
          tl.col = "black", tl.srt = 45)
 
-
-############### PCA of environmental variables ###########
-pca1<- prcomp(data_env[,3:5]) # altitude
-pca2<- prcomp(data_env[,6:8]) # NDVI
-pca3<- prcomp(data_env[,9:11]) # Solar
-pca4<- prcomp(data_env[,12:14]) # temp
-
-
 ############### validation of data set ###########
 Buchholz <- read.csv("Buchholz data.csv",header=T)
 cor1<- cor.test(Buchholz[,4],Buchholz[,5],method = "spearman")
@@ -37,6 +29,8 @@ cor1<- cor.test(Smith[,5],Smith[,7],method = "spearman")
 cor2<- cor.test(Smith[1:30,5],Smith[1:30,7],method = "spearman")
 
 
-
-
-
+############### PCA of environmental variables ###########
+pca1<- prcomp(data_env[,3:5]) # altitude
+pca2<- prcomp(data_env[,6:8]) # NDVI
+pca3<- prcomp(data_env[,9:11]) # Solar
+pca4<- prcomp(data_env[,12:14]) # temp
