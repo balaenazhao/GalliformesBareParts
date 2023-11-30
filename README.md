@@ -4,7 +4,7 @@ R scripts and relevant data that were used for the study *Bare parts in the Gall
 DOI: TBA
 
 ## Correlation Tests and Data Validation (CorrelationTests)
-The CorrelationTests folder contains R scripts **correlation test & PCA.R** and data file to perform Pearson/Spearman correlation tests.
+The CorrelationTests folder contains R scripts **correlation_test.R** and data file to perform Pearson/Spearman correlation tests.
 ### Test auto-correlation among variables
 Since some variables may be highly correlated with each other, we performed pairwise correlation tests for the predictor and responses variables.
 ### Validation of bare part scores
