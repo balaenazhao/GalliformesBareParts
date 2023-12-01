@@ -8,7 +8,7 @@ The CorrelationTests folder contains R scripts **correlation_test.R** and data f
 ### Test auto-correlation among variables
 Since some variables may be highly correlated with each other, we performed pairwise correlation tests for the predictor and responses variables.
 ### Validation of bare part scores
-We validated our bare part scores to demonstrate that our subjective estimates are reliable by comparing them with scores from two independent studies(Smith 2014 & Buchholz 1991).
+We validated our bare part scores to demonstrate that our subjective estimates are reliable by comparing them with scores from two independent studies (Smith 2014 & Buchholz 1991).
 
 ## Phylogenetic Generalized Least Squares (PGLS)
 The PGLS folder contains the scripts for running individual PGLS models for Galliformes and Phasianidae. The main working project **comparative_analyses.R** reads in the Galliformes phylogeny, prunes the outgroup tip and transforms the phylogeny to a ultrametric tree. It also creates subsets for Phasianidae, Galliformes excluding sage-grouse, Phasianidae excluding sage-grouse, and the above datasets but excluding species without bare parts.
