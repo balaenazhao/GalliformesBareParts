@@ -5,7 +5,7 @@ DOI: TBA
 
 ## Correlation Tests and Data Validation (CorrelationTests)
 The CorrelationTests folder contains R scripts **correlation_test.R** and data file to perform Pearson/Spearman correlation tests.
-### Test auto-correlation among variables
+### Test collinearity among variables
 Since some variables may be highly correlated with each other, we performed pairwise correlation tests for the predictor and responses variables.
 ### Validation of bare part scores
 We validated our bare part scores to demonstrate that our subjective estimates are reliable by comparing them with scores from two independent studies (Smith 2014 & Buchholz 1991).
