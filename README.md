@@ -1,7 +1,7 @@
 # Comparative Analysis for Bare Parts in Galliformes
 R scripts and relevant data that were used for the study ***Bare parts in the Galliformes: the evolution of a multifunctional structure***
 
-DOI: TBA
+Zenodo DOI: https://zenodo.org/doi/10.5281/zenodo.10302845
 
 ## Correlation Tests and Data Validation (CorrelationTests)
 The CorrelationTests folder contains R scripts **correlation_test.R** and data file to perform Pearson/Spearman correlation tests.
