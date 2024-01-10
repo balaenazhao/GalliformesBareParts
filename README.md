@@ -1,5 +1,5 @@
 # Comparative Analysis for Bare Parts in Galliformes
-R scripts and relevant data that were used for the study ***Bare parts in the Galliformes: the evolution of a multifunctional structure***
+R scripts and relevant data that were used for the study ***Bare parts in the Galliformes: the evolution of a multifunctional structure*** (https://doi.org/10.1098/rsos.231695)
 
 Zenodo DOI: https://zenodo.org/doi/10.5281/zenodo.10302845
 
